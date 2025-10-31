@@ -1,0 +1,5 @@
+[
+  {"category": "Popular", "type": "Movies", "year": "2020", "rating": "7", "genre": "Action"},
+  {"category": "Trending", "type": "TV Shows", "year": "2021", "rating": "8", "genre": "Drama"},
+  {"category": "Top Rated", "type": "Movies", "year": "2019", "rating": "9", "genre": "Comedy"}
+]
