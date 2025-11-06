@@ -50,6 +50,18 @@ def test_filter_movies(driver, test_input):
 
         results = driver.find_elements(By.CLASS_NAME, "card")
         logger.info(f"Found {len(results)} results for {test_input}")
+        if( driver.find_element(By.XPATH, //div[text()="No results found."]) .is_displayed()){
+            log
+        }else{
+            while
+            {
+                if (driver.find_element(By.XPATH, /a[@role="button" and @aria-disabled='true']) .is_displayed()){
+                    break;
+                }else{
+            driver.find_element(By.XPATH, /a[@role="button" and @aria-disabled='false']).click()
+                }
+            }
+        }
         assert len(results) > 0, f"No results found for {test_input}"
 
     except Exception as e:
